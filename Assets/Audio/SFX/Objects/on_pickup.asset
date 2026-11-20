@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-2673903445121359981
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: (Pick-up) 876011__signaturesoundsorg__starry_ui_click_64_{-2673903445121359981}
+  m_AudioClip: {fileID: 8300000, guid: 17877ee650d9b664d8b972c346ae266b, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &3887376536963885951
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: (Pick-up) 876010__signaturesoundsorg__starry_ui_click_63_{3887376536963885951}
+  m_AudioClip: {fileID: 8300000, guid: 86ed17bdf0fec4f4f916c61e7b788fba, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &4562904206449932855
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: (Pick-up) 876012__signaturesoundsorg__starry_ui_click_65_{4562904206449932855}
+  m_AudioClip: {fileID: 8300000, guid: 0b2beba16b28b514bb286bf607edc70f, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: on_pickup
+  m_Volume: 0
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 0
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: 0, y: 0}
+  m_PitchRandomizationRange: {x: 0, y: 0}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: 8053598846185180890}
+  - {fileID: 3887376536963885951}
+  - {fileID: -2673903445121359981}
+  - {fileID: 4562904206449932855}
+  m_AvoidRepeatingLast: 1
+  m_PlaybackMode: 2
+  m_TriggerMode: 0
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 2
+  m_VolumeRandomizationEnabled: 0
+  m_PitchRandomizationEnabled: 0
+  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_LoopCountRandomizationEnabled: 0
+--- !u!1233149941 &8053598846185180890
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: (Pick-up) 876009__signaturesoundsorg__starry_ui_click_62_{8053598846185180890}
+  m_AudioClip: {fileID: 8300000, guid: 623446d341b78b549bff41086031e52f, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
