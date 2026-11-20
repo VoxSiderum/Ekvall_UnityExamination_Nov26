@@ -233,7 +233,7 @@ GameObject:
   - component: {fileID: 305557601}
   - component: {fileID: 305557600}
   m_Layer: 0
-  m_Name: instructionsTrigger
+  m_Name: UI_trigger_instructions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -252,7 +252,7 @@ Transform:
   m_LocalScale: {x: 6.382261, y: 3.6737452, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1917230281}
+  m_Father: {fileID: 1242539642}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &305557600
 MonoBehaviour:
@@ -592,7 +592,7 @@ GameObject:
   - component: {fileID: 548078080}
   - component: {fileID: 548078079}
   m_Layer: 5
-  m_Name: instructionsText
+  m_Name: UI_text_instructions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -969,7 +969,7 @@ GameObject:
   - component: {fileID: 833178706}
   - component: {fileID: 833178708}
   m_Layer: 0
-  m_Name: Tilemap_ground
+  m_Name: tilemap_ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1709,7 +1709,7 @@ GameObject:
   - component: {fileID: 1222655937}
   - component: {fileID: 1222655936}
   m_Layer: 0
-  m_Name: Tilemap_platforms
+  m_Name: tilemap_platforms
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2183,7 +2183,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 305557599}
   m_Father: {fileID: 1917230281}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1494186769
@@ -2457,7 +2458,7 @@ GameObject:
   - component: {fileID: 1749911243}
   - component: {fileID: 1749911245}
   m_Layer: 0
-  m_Name: Tilemap_spikes
+  m_Name: tilemap_spikes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3176,7 +3177,6 @@ Transform:
   - {fileID: 950737735}
   - {fileID: 1957992495}
   - {fileID: 1242539642}
-  - {fileID: 305557599}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1957992492
@@ -3440,7 +3440,7 @@ GameObject:
   - component: {fileID: 2038577411}
   - component: {fileID: 2038577410}
   m_Layer: 0
-  m_Name: Tilemap_noncol
+  m_Name: tilemap_noncol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3653,7 +3653,7 @@ GameObject:
   - component: {fileID: 2064394144}
   - component: {fileID: 2064394145}
   m_Layer: 5
-  m_Name: pickup_counter
+  m_Name: UI_counter_pickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -31,12 +31,12 @@ public class SceneChangeHandler : MonoBehaviour
         
         if (SceneNo == 2)
         {
-            SceneManager.LoadSceneAsync("Level1", LoadSceneMode.Single);
+            SceneManager.LoadSceneAsync("LevelOne", LoadSceneMode.Single);
         }
         
         if (SceneNo == 3)
         {
-            SceneManager.LoadSceneAsync("Level2", LoadSceneMode.Single);
+            SceneManager.LoadSceneAsync("LevelTwo", LoadSceneMode.Single);
         }
         
         if (SceneNo == 4)
