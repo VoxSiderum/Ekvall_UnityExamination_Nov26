@@ -1,13 +1,19 @@
 fileFormatVersion: 2
-guid: f48e64e98f2beed4fa730b9e0e000a8f
+guid: cbb7ca6fd25433649863de379d7464c8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5115618752126089108
-    second: player_idle_0
+      213: 2215745761463138581
+    second: player_walk_0
   - first:
-      213: -5050664382621690000
-    second: player_idle_1
+      213: 1700766857389022521
+    second: player_walk_1
+  - first:
+      213: 2457880308640484884
+    second: player_walk_2
+  - first:
+      213: -1273090703572220712
+    second: player_walk_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -54,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 150
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -129,45 +135,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player_idle_0
+      name: sprites_player_walk_0
       rect:
         serializedVersion: 2
-        x: 9
+        x: 0
         y: 0
-        width: 142
-        height: 251
+        width: 160
+        height: 320
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c68823149dba109b0800000000000000
-      internalID: -5115618752126089108
+      spriteID: a1d6c7fa80e35f24392a09747cc931b2
+      internalID: -552476342
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_idle_1
+      name: sprites_player_walk_1
       rect:
         serializedVersion: 2
-        x: 169
+        x: 160
         y: 0
-        width: 142
-        height: 241
+        width: 160
+        height: 320
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 077dd1ae08f68e9b0800000000000000
-      internalID: -5050664382621690000
+      spriteID: ed6a20892f525a54184deb25c3dc3d87
+      internalID: 1409387741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_player_walk_2
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 160
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7bceb598592ee243aab68d1756a5a49
+      internalID: -669180287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_player_walk_3
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 160
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d2c1a24a23c44448cac22e4eab7008
+      internalID: -907215851
       vertices: []
       indices: 
       edges: []
@@ -176,7 +226,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 69e98b23ff4793741b96356550f7a02a
     internalID: 0
     vertices: []
     indices: 
@@ -184,10 +234,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":1.0},"gridSpriteSize":{"x":160.0,"y":320.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      player_idle_0: -5115618752126089108
-      player_idle_1: -5050664382621690000
+      sprites_player_walk_0: -552476342
+      sprites_player_walk_1: 1409387741
+      sprites_player_walk_2: -669180287
+      sprites_player_walk_3: -907215851
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
